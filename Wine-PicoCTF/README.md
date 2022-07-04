@@ -4,6 +4,12 @@ date: 7/3/2022
 
 # Challenge name: wine
 
+```python
+print('hello world')
+for i in range(30):
+    print(i)
+```
+
 ## Description
 
 > Challenge best paired with wine.
@@ -27,7 +33,7 @@ Modify the source code to print the address of the `win` function.
 Compile the [modified source code](./vuln-modified.c) using [mingw](https://www.mingw-w64.org/).
 This is the command I used:
 
-```sh
+```bash
 i686-w64-mingw32-gcc-win32 -m32 vuln-modified.c -o vuln_modified.exe -no-pie
 ```
 
@@ -54,6 +60,3 @@ Or a little more cleaned up:
 ![](./images/flag_cleaned.png)
 
 
-```py
-print("Fuck you")
-```
