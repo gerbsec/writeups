@@ -4,12 +4,6 @@ date: 7/3/2022
 
 # Challenge name: wine
 
-```python
-print('hello world')
-for i in range(30):
-    print(i)
-```
-
 ## Description
 
 > Challenge best paired with wine.
@@ -17,7 +11,11 @@ for i in range(30):
 > I love windows. 
 > Checkout my [exe](./vuln.exe) running on a linux box. 
 > You can view source [here](./vuln.c). 
-> And connect with it using: `nc saturn.picoctf.net 50631`
+> And connect with it using: 
+
+```bash
+nc saturn.picoctf.net 50631
+```
 
 ## Hints
 
