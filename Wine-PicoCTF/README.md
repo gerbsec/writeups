@@ -52,3 +52,8 @@ All that's left is to append the `win` address and run it on the remote instance
 Or a little more cleaned up:
 
 ![](./images/flag_cleaned.png)
+
+
+```py
+print("Fuck you")
+```
