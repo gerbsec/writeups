@@ -42,24 +42,24 @@ As we can see the app attempts to read a file called flag.txt and reads it into 
 
 Next it sets up a signal with the `sigsegv_handler`, this is defined here:
 
-![](./images/Pasted%20image%2020220722185440.png)
+![](./images/sigsegv.png)
 
 This pretty much means that if a segfault happens in the app, it will print the flag variable and present us the flag. 
 
 Next we seee the app is using `gets()` which is a very vulnerable function because there is no way for us to identify a buffer limit. 
 
-![](./images/Pasted%20image%2020220722190112.png)
+![](./images/gets.png)
 
 This gets is pushing data into a 100 buffer variable. Then it passes that data to the `vuln()` function which looks like this: 
 
-![](./images/Pasted%20image%2020220722191023.png)
+![](./images/vuln.png)
 
 This is taking the 100 bytes or more that we give buf1 and passing it to a 16 byte buffer that will likely break and initiate a seg fault. 
 
-![](./images/Pasted%20image%2020220722191515.png)
+![](./images/local.png)
 
 As you can see passing 100 bytes to the binary triggers a seg fault and it will print the flag.
 
 Finally over netcat:
 
-![](./images/Pasted%20image%2020220722192251.png)
+![](./images/remote.png)
