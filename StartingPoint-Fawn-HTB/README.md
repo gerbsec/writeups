@@ -7,28 +7,28 @@ date: 07/23/2022
 ## Difficulty: Very Easy
 ## Task #: 9
 ### Task 1:
-####  What does the 3-letter acronym FTP stand for? 
+  What does the 3-letter acronym FTP stand for? 
 
-#### Answer: File Transfer Protocol
+ Answer: File Transfer Protocol
 
 ### Task 2:
-#### Which port does the FTP service listen on usually?
+ Which port does the FTP service listen on usually?
 
-#### Answer: 21
+ Answer: 21
 
 ### Task 3:
-#### What acronym is used for the secure version of FTP? 
+ What acronym is used for the secure version of FTP? 
 
 
-#### Answer: sftp
+ Answer: sftp
 
 ### Task 4:
-#### What is the command we can use to send an ICMP echo request to test our connection to the target? 
+ What is the command we can use to send an ICMP echo request to test our connection to the target? 
 
-#### Answer: ping
+ Answer: ping
 
 ### Task 5: 
-#### From your scans, what version is FTP running on the target? 
+ From your scans, what version is FTP running on the target? 
 
 ```bash
 $ sudo nmap -sC -sV -v -p 21 --min-rate 10000 10.129.1.14
@@ -53,20 +53,20 @@ Service Info: OS: Unix
 
 ```
 
-#### Answer: vsftpd 3.0.3
+ Answer: vsftpd 3.0.3
 
 ### Task 6
-####  From your scans, what OS type is running on the target? 
+  From your scans, what OS type is running on the target? 
 
-#### Answer: unix
+ Answer: unix
 
 ### Task 7 
-####  What is the command we need to run in order to display the 'ftp' client help menu? 
+  What is the command we need to run in order to display the 'ftp' client help menu? 
 
-#### Answer: ftp -h 
+ Answer: ftp -h 
 
 ### Task 8
-####  What is username that is used over FTP when you want to log in without having an account? 
+  What is username that is used over FTP when you want to log in without having an account? 
 
 ```bash
 $ ftp 10.129.1.14
@@ -81,9 +81,9 @@ Using binary mode to transfer files.
 ftp>
 ```
 
-#### Answer: anonymous
+ Answer: anonymous
 
 ### Task 9
-#### Submit root flag
+ Submit root flag
 
-#### Answer: 035db21c881520061c53e0536e44f8153
+ Answer: 035db21c881520061c53e0536e44f8153

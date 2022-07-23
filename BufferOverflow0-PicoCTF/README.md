@@ -28,7 +28,7 @@ My approach to these challenges are going to be very similiar.
 Obviously there will be more steps to my methodology depending on the machine and 
 vulnerability; however, that is the outline that I want to follow.
 
-#### Getting started
+ Getting started
 
 I like to start by looking at the main function. I do this because I like to follow the code flow of the app and that is defined in the main function.
 

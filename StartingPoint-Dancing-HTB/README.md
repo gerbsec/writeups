@@ -7,27 +7,27 @@ date: 07/23/2022
 ## Difficulty: Very Easy
 ## Task #: 7
 ### Task 1:
-#### What does the 3-letter acronym SMB stand for? 
+ What does the 3-letter acronym SMB stand for? 
 
-#### Answer: Server Message Block
+Answer: Server Message Block
 
 ### Task 2:
-#### What port does SMB use to operate at? 
+ What port does SMB use to operate at? 
 
-#### Answer: 445
+ Answer: 445
 
 ### Task 3:
-#### What is the service name for port 445 that came up in our Nmap scan? 
+ What is the service name for port 445 that came up in our Nmap scan? 
 
-#### Answer: microsoft-ds
+ Answer: microsoft-ds
 
 ### Task 4:
-#### What is the 'flag' or 'switch' we can use with the SMB tool to 'list' the contents of the share? 
+ What is the 'flag' or 'switch' we can use with the SMB tool to 'list' the contents of the share? 
 
-#### Answer: -L 
+ Answer: -L 
 
 ### Task 5: 
-#### What is the name of the share we are able to access in the end with a blank password? 
+ What is the name of the share we are able to access in the end with a blank password? 
 
 ```bash
 $ smbclient -L 10.129.1.12
@@ -42,15 +42,15 @@ Enter WORKGROUP\gerbsec's password:
 SMB1 disabled -- no workgroup available
 ```
 
-#### Answer: WorkShares
+ Answer: WorkShares
 
 ### Task 6
-#### What is the command we can use within the SMB shell to download the files we find? 
+ What is the command we can use within the SMB shell to download the files we find? 
 
-#### Answer: get
+ Answer: get
 
 ### Task 7 
-####  Submit root flag:
+  Submit root flag:
 
 ```bash
 smb: \> ls
@@ -74,4 +74,4 @@ $ cat flag.txt
 5f61c10dffbc77a704d76016a22f1664
 ```
 
-#### Answer: 5f61c10dffbc77a704d76016a22f1664
+ Answer: 5f61c10dffbc77a704d76016a22f1664
