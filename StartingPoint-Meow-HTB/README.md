@@ -1,7 +1,7 @@
 ---
 date: 07/23/2022
 ---
-# Quick Commant
+# Quick Comment
 This Starting Point series is quite easy and meant for noobs. I just thought I'd do it as fast as I can to refresh myself on some ideas etc. Enjoy!
 
 
@@ -53,11 +53,6 @@ $ telnet 10.129.1.17
 Trying 10.129.1.17...
 Connected to 10.129.1.17.
 Escape character is '^]'.
-
-  █  █         ▐▌     ▄█▄ █          ▄▄▄▄
-  █▄▄█ ▀▀█ █▀▀ ▐▌▄▀    █  █▀█ █▀█    █▌▄█ ▄▀▀▄ ▀▄▀
-  █  █ █▄█ █▄▄ ▐█▀▄    █  █ █ █▄▄    █▌▄█ ▀▄▄▀ █▀█
-
 
 Meow login: root
 ```
